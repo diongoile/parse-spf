@@ -37,5 +37,3 @@ Returns an array of objects.
   { "type": "policy", "content": "-all", "notes": "Policy type: Fail" }
 ]
 ```
-
-If you have any qestions reach me on Keybase or via email, if this saved you times tip me with BAT!
