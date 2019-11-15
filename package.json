@@ -1,0 +1,19 @@
+{
+  "name": "parse-spf",
+  "version": "1.0.0",
+  "description": "Funciton that takes an SPF record as a string and returns an array of objects with useful information about the SPF Record",
+  "main": "parse-spf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diongoile/parse-spf.git"
+  },
+  "author": "Dion Goile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diongoile/parse-spf/issues"
+  },
+  "homepage": "https://github.com/diongoile/parse-spf#readme"
+}
