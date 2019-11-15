@@ -1,6 +1,6 @@
 {
   "name": "parse-spf",
-  "version": "1.0.0",
+  "version": "1.0.1-0",
   "description": "Funciton that takes an SPF record as a string and returns an array of objects with useful information about the SPF Record",
   "main": "parse-spf.js",
   "scripts": {
