@@ -35,4 +35,4 @@ const ParseSpf = (record) => {
     return data
 }
 
-export default ParseSpf;
+module.exports = ParseSpf;
