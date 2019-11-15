@@ -15,6 +15,8 @@ $ npm i parse-spf
 
 ## Usage
 
+Currently only supports ES5 module.exports
+
 ```javascript
 const ParseSpf = require('parse-spf');
 
@@ -24,3 +26,16 @@ ParseSpf(spfRecord);
 ```
 
 ## Output
+
+Returns an array of objects.
+
+```json
+[
+  { "type": "version", "content": "v=spf1", "notes": "SPF Version 1" },
+  { "type": "ip4:", "content": "1.1.1.1" },
+  { "type": "include:", "content": "spf.protection.outlook.com" },
+  { "type": "policy", "content": "-all", "notes": "Policy type: Fail" }
+]
+```
+
+If you have any qestions reach me on Keybase or via email, if this saved you times tip me with BAT!
